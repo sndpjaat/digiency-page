@@ -9,6 +9,12 @@
     text-decoration: none;
     
 }
+h2{
+    margin-bottom: 0 !important;
+}
+p{
+    margin-bottom: 0 !important;
+}
 
 ul li a {
     text-decoration: none;
@@ -193,7 +199,7 @@ gap: 5px;
     margin-left: 20px;
 }
 .btn-1:hover{
-background:brown;
+background:black;
 color:white;
 }
 .pt-159{
@@ -247,6 +253,7 @@ margin-top: 30px;
 width: 40px ;
 height: 1px;
 }
+
 .Our{
     color: var(--Orange, #FF5300);
 font-family: Poppins;
@@ -342,6 +349,10 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
+
+}
+.pt-10{
+    padding-top: 10px;
 }
 .Recent{
     color: var(--Black, #373737);
@@ -411,11 +422,11 @@ line-height: 19.2px; /* 150% */
     gap: 40px;
 }
 
-.btn-4{
+.btn-4-left{
     max-width: 50px;
     /* height: 50px; */
     flex-shrink: 0;
-    border: radius 50px;
+   
     stroke-width: 1px;
 stroke: var(--Black, #373737);
 }
@@ -426,34 +437,45 @@ stroke: var(--Black, #373737);
 }
 .position-absolute2{
 top: 340px;
-left: -30px;
+max-width: 50px;
+border: radius 50px;
+left: -40px;
 position: absolute;
 border-radius: 50px;
-color: #FF5300;
+/* color: #FF5300; */
 background-color: #FFF;
+width: 50px;
+height: 50px;
+flex-shrink: 0;
+stroke-width: 1px;
+border-color: #FF5300;
+stroke: var(--Black, #373737);
 }
 .position-absolute3{
     top: 340px;
-    right: -20px;
+    right: -40px;
     position: absolute;
     border-radius: 50px;
-    color: #FF5300;
+    color: #FF5300; 
     background-color: #FFF;
     stroke: var(--Black, #373737);
+    width: 50px;
+height: 50px;
+flex-shrink: 0;
+/* color: #FF5300; */
+border-color: #FF5300;
 }
 .position-absolute3:hover{
-    background: #FF5300;
-    color: #FFF;
+    background:#FF5300;
+    color: white;
     /* box-shadow: 0px 15px 15px 0px#FF5300; */
 }
 
-.btn-5{
-    max-width: 50px;
-    /* height: 50px; */
-    flex-shrink: 0;
-    border-radius: 50px;
-    stroke-width: 1px;
-stroke: var(--Black, #373737);  
+.box-crd{
+padding: 15px 15px 30px;
+border-radius: 10px;
+background:  #FFF;
+box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
 }
 
 .Thinking{
@@ -464,7 +486,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 58.59px; /* 149.99% */
 }
-.massa{
+.volutpat{
     color: var(--Paragraph, #7B7B7B);
 font-family: Poppins;
 font-size: 16px;
@@ -473,17 +495,51 @@ font-weight: 400;
 line-height: 24px; /* 150% */
 padding-top: 18px;
 }
-
-.orng-box{
-    width: 266px;
-    height: 230px;
-    flex-shrink: 0;
-    background: rgba(255, 83, 0, 0.75);
-    opacity: 0;
-    transition: all 300ms linear;
+.white-box{
+    /* width: 125px; */
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+    padding: 11px 20px 15px;
+height: 100%;
+}
+.dehits{
+    color: var(--Orange, #FF5300);
+text-align: center;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 37.5px; /* 150% */
+}
+.pt-120{
+    padding-top: 120px;}
+.text-center{
+    color: var(--Black, #373737);
+text-align: center;
+font-family: Poppins;
+font-size: 12.8px;
+font-style: normal;
+font-weight: 300;
+line-height: 19.2px; /* 150% */
 }
 
-.girl-image:hover .orng-box {
+.orng-box{
+   padding: 63px 40px ;
+    flex-shrink: 0;
+    background: rgba(255, 83, 0, 0.75);
+     opacity: 0;
+    transition: all 300ms linear;
+}
+.img-box:hover .orng-box{
+    opacity: 1;
+}
+.pl-pr-0{
+    padding: 0 !important;
+}
+.position-relative7{
+    position: relative;
+}
+.item1-image:hover .orng-box {
     opacity: 1;
     transition: all 300ms linear;
 }
@@ -494,10 +550,10 @@ padding-top: 18px;
     padding: 63px 108px;
 }
 
-.position-absolute {
-    top: 15%;
-    left: 18%;
+.position-absolute7{
+    /* top: 0; */
     position: absolute;
+    
    
 }
 .ot-15{
@@ -505,8 +561,7 @@ padding-top: 18px;
 }
 .WebTemplate {
     color: var(--Whit, #FFF);
-
-/* H4 */
+   
 font-family: Poppins;
 font-size: 25px;
 font-style: normal;
@@ -764,10 +819,20 @@ line-height: normal;
     color: var(--Whit, #FFF);
 font-family: Poppins;
 font-size: 16px;
+max-width: 270px;
+width: 100%;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 
+}
+.integer{
+    color: var(--Paragraph, #7B7B7B);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
 }
 .Location{
     color: var(--Orange, #FF5300);
@@ -775,8 +840,8 @@ font-family: Poppins;
 font-size: 25px;
 font-style: normal;
 font-weight: 600;
-margin-right: 30px;
 line-height: 37.5px; /* 150% */
+
 }
 .Pennsylvania{
     color: var(--Whit, #FFF);
@@ -785,7 +850,8 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 30px; /* 150% */
-margin-right: 30px;
+
+
 }
 .bg-white{
     border-radius: 50px;
@@ -794,14 +860,13 @@ height: 50px;
 flex-shrink: 0;
 }
 .line-3{
-    width: 1170px;
+    max-width: 1170px;
+    width: 100%;
 height: 1px;
 background: #FFF;
 margin-top: 60px;
 }
-.facebook-svg {
-    padding: 15px 15px 15px 15px;
-}
+
 .Reserved{
     color: var(--Whit, #FFF);
 font-family: Work Sans;
@@ -822,13 +887,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 }
-.my-Btn {
-    width: 58px;
-height: 58px;
-flex-shrink: 0;
-border-radius: 50px;
-background-color: #FF5300;
-}
+
 .pb-20{
     padding-bottom: 20px;
 }
@@ -839,20 +898,24 @@ background-color: #FF5300;
     height: inherit !important;
     display: flex !important;
   }
+  /* .position-absolute5{
+    top: 55px;
+    right: 77px;
+    position: absolute;
+  } */
   
-.my-Btn {
+#my-Btn {
     display: none; /* Hidden by default */
     position: fixed;
     bottom: 20px; /* Place the button at the bottom of the page */
-    right: 0; /* Place the button 30px from the right */
+    right: 20px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: #FF5300; /* Text color */
+    background-color: #FF5300; /* Set a background color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    padding: 5px; /* Some padding */
+    border-radius: 50px; /* Rounded corners */
+    /* font-size: 18px; Increase font size */
   }
 
