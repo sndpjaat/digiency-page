@@ -439,7 +439,7 @@ stroke: var(--Black, #373737);
 top: 340px;
 max-width: 50px;
 border: radius 50px;
-left: -40px;
+left: -30px;
 position: absolute;
 border-radius: 50px;
 /* color: #FF5300; */
@@ -453,7 +453,7 @@ stroke: var(--Black, #373737);
 }
 .position-absolute3{
     top: 340px;
-    right: -40px;
+    right: -30px;
     position: absolute;
     border-radius: 50px;
     color: #FF5300; 
